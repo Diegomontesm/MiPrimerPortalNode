@@ -1,0 +1,13 @@
+{
+  "name": "Pagina-En-Node",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto en JSON",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "node src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+/* =====================  ESTILOS GENERAL ========================== */
+#ContenedorPrincipal{
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	}	
+#logo{
+	margin: 0px 0px 15px 0px; 	
+}
+#ContenedorDelMenu{
+	width: 100%;	
+}
+/* =====================  ESTILOS PARA EL MENÚ ========================== */
+.tm-header{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  width:100%;	
+}
+
+.tm-nav { text-transform: uppercase; }
+.tm-nav li {
+  float: left;
+  list-style: none;
+}
+.tm-nav a {
+  background-color: #23afd2;
+  color: white;
+  display: inline-block;
+  padding: 18px 50px 20px 50px;  
+  -webkit-transition: all 0.3s ease;  
+          transition: all 0.3s ease;
+}
+/* =====================  ESTILOS PARA ACERCA DE  ========================== */
+#TituloGaleria, #TituloAcerca, #TituloContacto{
+	text-align:center;
+	font-size: 18px;
+	font-style:italic;
+	background-color:#2195AD;		
+	margin: 20px 0px; 
+}
+/* =====================  ESTILOS PARA EL PIE DE PÁGINA  ========================== */
+footer .container{
+	background-color: #B3EBFD;
+	margin-top: 50px;	
+}
+
+.list-inline li{
+	display: inline-block;
+	padding: 5px;	
+}
+
+.footer-col a{
+color: #000;	
+}
+
+.footer-col a:hover{
+	color: #333;
+    text-decoration: underline;	
+}
